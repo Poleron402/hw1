@@ -1,0 +1,52 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background: linear-gradient(150deg, rgba(0,0,0) 0%, rgb(23, 49, 73) 100%, rgba(0,0,0,1) 100%) no-repeat;
+    background-size:contain;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+    color: rgb(108, 132, 159);;
+}
+
+#intro{
+    display: flex;
+    margin-inline: 90px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+#navlinks{
+    display: flex;
+    justify-content: space-between;
+}
+a{ 
+    color: rgb(117, 154, 196);
+    text-decoration: none;
+    border: 1px solid rgb(117, 154, 196);
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+a:hover{
+    background-color: rgb(117, 154, 196);
+    color: rgb(23, 49, 73);
+    transform: scale(1.2);
+    box-shadow: 0px 10px 20px rgba(8, 223, 243, 0.322);
+}
+h1{
+    font-size: 35px;
+}
+p{
+    padding: 50px;
+}
+#p_main{
+    font-size: 20px;
+    padding: 60px;
+    margin-top: 75px;
+    font-size: 20px;
+    text-align: center
+}
+#p_how{
+    font-size: 18px;
+}
