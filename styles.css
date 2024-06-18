@@ -70,6 +70,12 @@ h1{
 details{
     font-size: 30px;
 }
+.source{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 80px;
+    text-align: center;
+}
 .summary{
     font-size: 20px;
     padding: 10px;
