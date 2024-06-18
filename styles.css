@@ -8,14 +8,14 @@ html{
     color: rgb(108, 132, 159);;
 }
 
-#intro{
+.intro{
     display: flex;
     margin-inline: 90px;
     margin-top: 50px;
     justify-content: space-between;
     align-items: center;
 }
-#navlinks{
+.navlinks{
     display: flex;
     justify-content: space-between;
 }
@@ -37,7 +37,24 @@ h1{
     font-size: 35px;
 }
 .content{
-    margin-left: 50px;;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.components{
+    margin: 60px;
+    height: 400px;
+    width: 360px;
+    border: 3px solid rgb(161, 161, 220);
+    border-radius: 20px;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+.components > img{
+    width: 150px;
 }
 #p_main{
     font-size: 20px;
@@ -52,13 +69,8 @@ h1{
 }
 details{
     font-size: 30px;
-    margin-left: 50px;
-}
-.components{
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
 }
 .summary{
     font-size: 20px;
+    padding: 10px;
 }
