@@ -19,6 +19,10 @@ html{
     display: flex;
     justify-content: space-between;
 }
+.nav{
+    width: 480px;
+}
+
 a{ 
     color: rgb(117, 154, 196);
     text-decoration: none;
