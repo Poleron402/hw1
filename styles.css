@@ -22,7 +22,6 @@ html{
 .nav{
     width: 480px;
 }
-
 a{ 
     color: rgb(117, 154, 196);
     text-decoration: none;
@@ -53,7 +52,6 @@ h1{
     border: 3px solid rgb(161, 161, 220);
     border-radius: 20px;
     display: flex;
-
     align-items: center;
     flex-direction: column;
 }
@@ -63,9 +61,11 @@ h1{
 #p_main{
     font-size: 20px;
     padding: 60px;
+    padding-inline: 200px;
     margin-top: 75px;
     font-size: 20px;
-    text-align: center
+    text-align: center;
+    line-height: 40px;
 }
 #p_how{
     font-size: 18px;
@@ -83,4 +83,17 @@ details{
 .summary{
     font-size: 20px;
     padding: 10px;
+}
+#model_list{
+    width: 80vw;
+    margin: auto;
+}
+ol{
+    line-height: 30px;
+}
+ol > li{
+    font-size: 27px;
+}
+ul > li{
+    font-size: 18px;
 }
