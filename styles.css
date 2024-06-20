@@ -5,9 +5,8 @@ html{
     background: linear-gradient(150deg, rgba(0,0,0) 0%, rgb(23, 49, 73) 100%, rgba(0,0,0,1) 100%) no-repeat;
     min-height: 100vh;
     font-family:Arial, Helvetica, sans-serif;
-    color: rgb(108, 132, 159);;
+    color: rgb(108, 132, 159);
 }
-
 .intro{
     display: flex;
     margin-inline: 90px;
@@ -15,22 +14,27 @@ html{
     justify-content: space-between;
     align-items: center;
 }
+.intro > img{
+    margin-top: 20px;
+    margin-left: 90px;
+}
 .navlinks{
     display: flex;
     justify-content: space-between;
+    margin-inline: 40px;
+    margin-top: 20px;
 }
-.nav{
-    width: 480px;
-}
-a{ 
+.pages, .source{ 
     color: rgb(117, 154, 196);
     text-decoration: none;
-    border: 1px solid rgb(117, 154, 196);
     padding: 10px;
     border-radius: 5px;
     transition: transform 0.3s ease;
 }
-a:hover{
+.source{
+    border: 1px solid rgb(117, 154, 196);
+}
+.pages:hover, .source:hover{
     background-color: rgb(117, 154, 196);
     color: rgb(23, 49, 73);
     transform: scale(1.2);
@@ -49,14 +53,16 @@ h1{
     margin: 60px;
     height: 400px;
     width: 360px;
-    border: 3px solid rgb(161, 161, 220);
+    border: 3px solid rgb(83, 173, 82);
     border-radius: 20px;
+    color: rgb(83, 173, 82);;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .components > img{
     width: 150px;
+    margin-top: 10px;
 }
 #p_main{
     font-size: 20px;
@@ -67,9 +73,10 @@ h1{
     text-align: center;
     line-height: 40px;
 }
-#p_how{
+.p_other{
     font-size: 18px;
     padding: 60px;
+    line-height: 40px;
 }
 details{
     font-size: 30px;
@@ -80,9 +87,12 @@ details{
     width: 80px;
     text-align: center;
 }
+summary{
+    margin-top: 10px;
+}
 .summary{
-    font-size: 20px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 9px;
 }
 #model_list{
     width: 80vw;
@@ -93,7 +103,18 @@ ol{
 }
 ol > li{
     font-size: 27px;
+    color: rgb(83, 173, 82);
 }
 ul > li{
     font-size: 18px;
+    color: rgb(108, 132, 159);
+}
+
+.embedded_link{
+    font-size: 23px;
+    color: rgb(83, 173, 82);
+}
+.embedded_link:hover{
+    color: rgb(167, 232, 159);
+    text-decoration: none;
 }
